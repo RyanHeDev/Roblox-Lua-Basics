@@ -1,0 +1,14 @@
+
+-- While loop
+while true do 
+	wait()
+	-- Variable for Instance
+	local Fall = Instance.new("Part",game.Workspace)
+	Fall.Position = Vector3.new(0,15,0)
+	Fall.Size = Vector3.new(0.5,2,0.5)
+	Fall.Anchored = false
+	Fall.Transparency = 0.5
+	Fall.Color = Color3.fromRGB(22, 191, 194)
+	wait(1)
+	Fall:Destroy()
+end
