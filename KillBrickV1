@@ -1,4 +1,4 @@
-```lua
+
 -- Function
 
 game.Workspace.KillPart.Touched:Connect(function(OtherPlayer) -- function
@@ -10,4 +10,3 @@ game.Workspace.KillPart.Touched:Connect(function(OtherPlayer) -- function
 end)
 
 -- Credit TabEngineerX 
-```
