@@ -1,0 +1,13 @@
+```lua
+-- Function
+
+game.Workspace.KillPart.Touched:Connect(function(OtherPlayer) -- function
+	local PartParent = OtherPlayer.Parent -- the parent 
+	local humanoid = PartParent:FindFirstChild("Humanoid") -- Calling the humanoid
+	if humanoid then -- checking if its the humanoid who touched
+		humanoid.Health = 0 -- setting the humanoid health to 0 
+	end
+end)
+
+-- Credit TabEngineerX 
+```
