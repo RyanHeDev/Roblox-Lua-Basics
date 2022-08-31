@@ -1,0 +1,10 @@
+-- Variable for Instance
+local NewPart = Instance.new("Part",game.Workspace)
+-- Changing the size
+NewPart.Size = Vector3.new(50,50,50)
+-- Changing Position
+NewPart.Position = Vector3.new(50,200,50)
+-- Anchore
+NewPart.Anchored = true
+-- Transparency 
+NewPart.Transparency = 0.5
