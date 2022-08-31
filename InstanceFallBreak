@@ -1,0 +1,20 @@
+
+local FallSpawned = 0
+
+-- While loop
+while true do
+	if FallSpawned >= 250 then
+		break
+	end
+	wait()
+	FallSpawned += 1
+	-- Variable for Instance
+	local Fall = Instance.new("Part",game.Workspace)
+	-- Instance Stuff
+	Fall.Position = Vector3.new(0,15,0)
+	Fall.Size = Vector3.new(0.5,2,0.5)
+	Fall.Anchored = false
+	Fall.Transparency = 0.5
+	Fall.Color = Color3.fromRGB(22, 191, 194)
+	wait(.5)
+end
