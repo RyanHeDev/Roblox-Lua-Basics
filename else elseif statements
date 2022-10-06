@@ -1,0 +1,13 @@
+
+
+oldestPersonAliveAge = 260
+
+if oldestPersonAliveAge == 100 then
+	print("They are 100 ")
+elseif oldestPersonAliveAge == 300 then
+	print("They are 300")
+elseif oldestPersonAliveAge == 250 then
+	print("They are 250")
+else 
+	print("They are "..oldestPersonAliveAge.." old")
+end
