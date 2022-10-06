@@ -1,0 +1,19 @@
+
+personIsStrong = true
+personIsShort = false
+
+if personIsStrong == true then
+	print("Person is strong!")
+end
+
+if personIsShort == true then 
+	print("Person is short!")
+end
+
+if not personIsShort then
+	print("Person is tall!")
+end
+
+if personIsShort or personIsStrong then
+	print("they are either short or strong!")
+end
