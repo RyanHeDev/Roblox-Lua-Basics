@@ -1,0 +1,35 @@
+myAge = 18
+yourAge = 12
+
+function myAgePlusYours()
+	print(myAge+yourAge)
+end
+
+myAgePlusYours()
+
+--///////////////////////////////
+
+
+function addNumbers(a, b)
+	print(a+b)
+end
+
+addNumbers(30, 50)
+
+--///////////////////////////////
+
+
+a = 20
+b = 100
+
+function subtractNumbers(num1, num2)
+	print(34-55)
+end
+
+
+function alt()
+	print(a+b)
+end
+
+subtractNumbers()
+alt()
