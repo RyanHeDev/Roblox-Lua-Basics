@@ -1,0 +1,14 @@
+
+counter = 0 
+
+-- while loops
+while wait(1) do
+	-- Adding 1 to counter every 1 second
+	counter+=1
+	-- If statement to check if counter is equal to 20
+	if counter == 20 then
+		print(counter)
+		-- Stops the loop
+		break
+	end
+end
