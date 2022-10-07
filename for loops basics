@@ -1,0 +1,18 @@
+-- Hello welcome to for loops
+
+-- for loops
+for i = 1, 3 do
+	print("My Name Is Tab! ")
+end
+--------------------------------------------------------
+--[for loops again :
+-- 1 is the amount you start from
+-- 20 is the anount you want to reach
+-- 2 is how much you add every time]
+
+for i = 1, 20, 2 do
+	-- Get loops 10 times 
+	print("This is a for loops")
+end
+
+-- Credit : Tab
