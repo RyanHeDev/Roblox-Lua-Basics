@@ -1,0 +1,32 @@
+-- Welcome to math class in lua
+
+-- math.pi
+math.pi() -- 3.14...
+-- math.huge
+math.huge() -- infinity {8}
+--math.abs
+math.abs() -- absolute value |x| or |y|
+--[[math.abs(-200) -- prints 200
+math.abs(100) -- prints 100 ]]--
+-- math.floor
+math.floor() -- 8.4384 -> 8
+-- math.floor
+math.ceil() -- 8.4384-> 9
+-- math.max
+math.max(80, 200) --> 200
+math.max(58, 294) --> 294
+-- math.min
+math.min(4, 8) --> 4
+math.min(1,20) --> 1
+-- math.random
+math.random(1, 20) --> will give you a ramdom number
+-- math.rad
+math.rad()
+-- math.deg
+math.deg()
+-- math.tan
+math.tan()
+-- math.cos
+math.cos()
+-- for more https://create.roblox.com/docs/reference/engine/libraries/math
+
