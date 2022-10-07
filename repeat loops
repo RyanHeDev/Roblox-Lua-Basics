@@ -1,1 +1,20 @@
 
+-- counter variable
+counter = 0
+
+--[[ 
+ --this is a for loops
+for i = 1, 20 do
+	counter += 1
+end
+
+--]]
+
+-- repeat loops
+repeat
+	wait()
+	counter +=1
+-- its going to repeat until the counter is equal to 20
+until counter== 20
+
+print(counter)
