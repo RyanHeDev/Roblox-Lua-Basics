@@ -1,0 +1,34 @@
+
+
+grades = {
+	99,
+	40,
+	54,
+	12,
+	45,
+	75,
+}
+
+print(grades)
+
+table.sort(grades)
+
+print(grades)
+
+-------------------------------
+
+students = {
+	"Tab",
+	"Jack",
+	"Bob",
+	"John",
+	"Ryan",
+}
+
+TabIndex = table.find(students, "Tab")
+print(TabIndex)
+
+table.remove(students, TabIndex)
+print(students)
+
+-- more tables https://create.roblox.com/docs/scripting/luau/tables
