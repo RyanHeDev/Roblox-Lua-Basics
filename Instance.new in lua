@@ -1,0 +1,30 @@
+--[[
+--Creating a new instance 
+newInstance = Instance.new("Part")
+
+-- Storing the instance inside the variable to be into the workspace
+newInstance.Parent = workspace
+]] 
+
+-- Another way we can create a new instance
+newInstance = Instance.new("Part", workspace)
+-- we can also do
+-- newInstance = Instance.new("Part", workspace.Baseplate)
+-- Repositioning the part
+newInstance.Position = Vector3.new(5,5,5)
+--Changing the color 
+newInstance.Color = Color3.new(0, 0.917647, 1)
+-- Anchoring the part
+newInstance.Anchored = true
+-- Changing transparency
+newInstance.Transparency = .5
+-- Cancollide 
+newInstance.CanCollide = true
+
+-- Now cloning
+
+newClone = newInstance:Clone()
+newClone.Parent = workspace
+
+-- Changing position to notice the clone part
+newClone.Position = Vector3.new(2,2,2)
