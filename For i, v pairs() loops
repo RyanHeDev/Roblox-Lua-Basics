@@ -1,0 +1,30 @@
+local icecreamFlavors = {
+	[1] = "Chocolate",
+	[2] = "Vanilla",
+	[3] = "Pistache",
+}
+
+-- v is the stored item and i is the index like [1] [2] you got the point
+for i, v in pairs(icecreamFlavors) do 
+	print(i..": "..v)
+end
+
+-- this is doing the same thing
+for i = 1, #icecreamFlavors do
+	print(i..": "..icecreamFlavors[i])
+end
+
+local carPrices = {
+	["Ferrari"] = 100000,
+	["Lamborghini"] = 250000,
+	["Porche"] = 10000,
+}
+
+for i, v in pairs(carPrices) do
+	print(i..": "..v)
+end
+
+-- we are using :GetChildren to get what is inside of the workspace because the workspace is a service
+for i, v in pairs(workspace:GetChildren()) do
+	print(i..": "..v.Name)
+end
