@@ -1,0 +1,12 @@
+
+-- Defining a variable
+local part = workspace.Part
+-- Setting up the cframe   
+part.CFrame = CFrame.new(0,10,0) * CFrame.Angles(0,math.rad(90),0)
+--[[Vector 3
+	Vector3.new(0,20,0) + Vector3.new(0,40,0)
+]]
+
+-- Note : if you want to rotate a model make sure it has a primaryPart
+
+-- More CFrames : https://create.roblox.com/docs/building-and-visuals/studio-modeling/cframes
