@@ -1,0 +1,31 @@
+-- these are code blocks :
+
+local roblox = "Founder"
+-- local function, local is used at the same function only
+local function robloxFunction()
+	local function robloxianFunction()
+		
+	end
+	local Var = 19
+	Var += 1
+end
+robloxFunction()
+-- you cant access the funcion because its local
+print(Var)
+
+if true then
+	
+end
+-- normal function
+function normalFunction()
+	
+end
+
+while true do
+	wait()
+end
+
+
+for i = 1,8 do 
+	
+end
